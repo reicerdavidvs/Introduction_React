@@ -1,0 +1,35 @@
+h1 {
+    color: #2d3e5f;
+    font-size: 40px;
+}
+
+h2 {
+    color: #2d3e5f;
+    font-size: 48px;
+}
+
+h2 span {
+    color: #518099;
+}
+
+@media (min-width:480px) and (max-width:1024px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    h1 {
+        font-size: 22px;
+ 
+    }
+
+    h2 {
+        font-size: 30px;
+ 
+    }
+}
