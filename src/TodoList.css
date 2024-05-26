@@ -1,14 +1,5 @@
-ul{
-    width: 80%;
-}
-@media (min-width:480px) and (max-width:1024px) {
-    ul{
-        width: 90%;
-    }
-}
-
-@media screen and (max-width:480px) {
-    ul{
-        width: 100%;
-    }
+.TodoList{
+    margin: 0;
+    padding: 0 0 56px 0;
+    list-style: none;
 }
